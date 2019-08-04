@@ -1,0 +1,391 @@
+2018-04-29 15:20:58,879 INFO (StartupInfoLogger.java:50)- Starting SystemRun.Application on WIN-20130116IDA with PID 7708 (C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core\out\production\classes started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware)
+2018-04-29 15:20:58,880 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:20:58,919 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@437ee3ce: startup date [Sun Apr 29 15:20:58 CST 2018]; root of context hierarchy
+2018-04-29 15:21:00,491 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8888 (http)
+2018-04-29 15:21:00,503 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:21:00,515 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-04-29 15:21:00,515 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-29 15:21:00,519 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\Desktop\jql\gradle-4.6\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\ProgramData\Oracle\Java\javapath;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;E:\software\Anaconda3\Library\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;.]
+2018-04-29 15:21:00,623 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-04-29 15:21:00,624 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 1705 ms
+2018-04-29 15:21:00,753 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2018-04-29 15:21:00,758 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-29 15:21:00,758 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-29 15:21:00,759 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-29 15:21:00,759 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-29 15:21:01,227 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@437ee3ce: startup date [Sun Apr 29 15:20:58 CST 2018]; root of context hierarchy
+2018-04-29 15:21:01,283 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:21:01,284 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:21:01,321 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:21:01,321 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:21:01,362 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:21:01,394 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:21:01,616 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-04-29 15:21:01,687 INFO (MBeanExporter.java:434)- Registering beans for JMX exposure on startup
+2018-04-29 15:21:01,689 INFO (MBeanExporter.java:896)- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-29 15:21:01,693 INFO (MBeanExporter.java:669)- Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-29 15:21:01,711 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:21:01,721 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-04-29 15:21:01,739 INFO (TomcatWebServer.java:205)- Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-29 15:21:01,744 INFO (StartupInfoLogger.java:59)- Started SystemRun.Application in 3.545 seconds (JVM running for 4.805)
+2018-04-29 15:22:08,107 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-29 15:22:08,107 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-29 15:22:08,129 INFO (FrameworkServlet.java:513)- FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-04-29 15:46:27,499 INFO (StartupInfoLogger.java:50)- Starting SystemRun.Application on WIN-20130116IDA with PID 9732 (C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core\out\production\classes started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware)
+2018-04-29 15:46:27,501 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:46:27,572 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65a6ae45: startup date [Sun Apr 29 15:46:27 CST 2018]; root of context hierarchy
+2018-04-29 15:46:29,277 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8888 (http)
+2018-04-29 15:46:29,290 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:46:29,301 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-04-29 15:46:29,302 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-29 15:46:29,305 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\Desktop\jql\gradle-4.6\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\ProgramData\Oracle\Java\javapath;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;E:\software\Anaconda3\Library\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;.]
+2018-04-29 15:46:29,414 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-04-29 15:46:29,414 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 1842 ms
+2018-04-29 15:46:29,567 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2018-04-29 15:46:29,574 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-29 15:46:29,575 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-29 15:46:29,576 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-29 15:46:29,577 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-29 15:46:30,138 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65a6ae45: startup date [Sun Apr 29 15:46:27 CST 2018]; root of context hierarchy
+2018-04-29 15:46:30,190 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 15:46:30,192 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 15:46:30,193 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser(java.lang.String,int)
+2018-04-29 15:46:30,197 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:46:30,198 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:46:30,234 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:46:30,235 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:46:30,276 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:46:30,306 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:46:30,548 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-04-29 15:46:30,633 INFO (MBeanExporter.java:434)- Registering beans for JMX exposure on startup
+2018-04-29 15:46:30,635 INFO (MBeanExporter.java:896)- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-29 15:46:30,644 INFO (MBeanExporter.java:669)- Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-29 15:46:30,666 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:46:30,697 ERROR (DirectJDKLog.java:182)- Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at Utility.SystemRun.Application.main(SystemRun.Application.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2018-04-29 15:46:30,703 INFO (DirectJDKLog.java:180)- Pausing ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:46:30,704 INFO (DirectJDKLog.java:180)- Stopping service [Tomcat]
+2018-04-29 15:46:30,726 INFO (DirectJDKLog.java:180)- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-04-29 15:46:30,726 INFO (DirectJDKLog.java:180)- Stopping ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:46:30,726 INFO (DirectJDKLog.java:180)- Destroying ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:46:30,729 INFO (ConditionEvaluationReportLoggingListener.java:101)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-29 15:46:30,734 ERROR (LoggingFailureAnalysisReporter.java:42)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+2018-04-29 15:46:30,736 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65a6ae45: startup date [Sun Apr 29 15:46:27 CST 2018]; root of context hierarchy
+2018-04-29 15:46:30,739 INFO (MBeanExporter.java:452)- Unregistering JMX-exposed beans on shutdown
+2018-04-29 15:46:30,740 INFO (MBeanRegistrationSupport.java:183)- Unregistering JMX-exposed beans
+2018-04-29 15:48:28,799 INFO (StartupInfoLogger.java:50)- Starting SystemRun.Application on WIN-20130116IDA with PID 6260 (C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core\out\production\classes started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware)
+2018-04-29 15:48:28,800 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:48:28,870 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33c6ac0c: startup date [Sun Apr 29 15:48:28 CST 2018]; root of context hierarchy
+2018-04-29 15:48:30,812 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8888 (http)
+2018-04-29 15:48:30,826 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:48:30,837 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-04-29 15:48:30,837 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-29 15:48:30,841 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\Desktop\jql\gradle-4.6\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\ProgramData\Oracle\Java\javapath;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;E:\software\Anaconda3\Library\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;.]
+2018-04-29 15:48:30,952 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-04-29 15:48:30,952 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 2082 ms
+2018-04-29 15:48:31,091 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2018-04-29 15:48:31,097 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-29 15:48:31,097 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-29 15:48:31,098 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-29 15:48:31,098 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-29 15:48:31,588 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33c6ac0c: startup date [Sun Apr 29 15:48:28 CST 2018]; root of context hierarchy
+2018-04-29 15:48:31,654 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 15:48:31,655 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 15:48:31,657 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser(java.lang.String,int)
+2018-04-29 15:48:31,660 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:48:31,661 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:48:31,698 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:48:31,699 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:48:31,742 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:48:31,772 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:48:31,991 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-04-29 15:48:32,043 INFO (MBeanExporter.java:434)- Registering beans for JMX exposure on startup
+2018-04-29 15:48:32,044 INFO (MBeanExporter.java:896)- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-29 15:48:32,049 INFO (MBeanExporter.java:669)- Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-29 15:48:32,060 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:48:32,066 ERROR (DirectJDKLog.java:182)- Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at Utility.SystemRun.Application.main(SystemRun.Application.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2018-04-29 15:48:32,070 INFO (DirectJDKLog.java:180)- Pausing ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:48:32,071 INFO (DirectJDKLog.java:180)- Stopping service [Tomcat]
+2018-04-29 15:48:32,081 INFO (DirectJDKLog.java:180)- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-04-29 15:48:32,081 INFO (DirectJDKLog.java:180)- Stopping ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:48:32,082 INFO (DirectJDKLog.java:180)- Destroying ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:48:32,085 INFO (ConditionEvaluationReportLoggingListener.java:101)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-29 15:48:32,090 ERROR (LoggingFailureAnalysisReporter.java:42)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+2018-04-29 15:48:32,091 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33c6ac0c: startup date [Sun Apr 29 15:48:28 CST 2018]; root of context hierarchy
+2018-04-29 15:48:32,093 INFO (MBeanExporter.java:452)- Unregistering JMX-exposed beans on shutdown
+2018-04-29 15:48:32,093 INFO (MBeanRegistrationSupport.java:183)- Unregistering JMX-exposed beans
+2018-04-29 15:54:46,408 INFO (StartupInfoLogger.java:50)- Starting SystemRun.Application on WIN-20130116IDA with PID 8084 (C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core\out\production\classes started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware)
+2018-04-29 15:54:46,428 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:54:46,482 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56942a65: startup date [Sun Apr 29 15:54:46 CST 2018]; root of context hierarchy
+2018-04-29 15:54:48,240 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8888 (http)
+2018-04-29 15:54:48,253 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:54:48,263 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-04-29 15:54:48,264 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-29 15:54:48,267 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\Desktop\jql\gradle-4.6\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\ProgramData\Oracle\Java\javapath;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;E:\software\Anaconda3\Library\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;.]
+2018-04-29 15:54:48,375 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-04-29 15:54:48,375 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 1893 ms
+2018-04-29 15:54:48,505 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2018-04-29 15:54:48,510 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-29 15:54:48,511 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-29 15:54:48,511 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-29 15:54:48,511 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-29 15:54:48,987 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56942a65: startup date [Sun Apr 29 15:54:46 CST 2018]; root of context hierarchy
+2018-04-29 15:54:49,038 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 15:54:49,039 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 15:54:49,041 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser(java.lang.String,int)
+2018-04-29 15:54:49,044 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:54:49,045 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:54:49,080 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:54:49,080 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:54:49,119 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:54:49,149 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:54:49,359 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-04-29 15:54:49,423 INFO (MBeanExporter.java:434)- Registering beans for JMX exposure on startup
+2018-04-29 15:54:49,424 INFO (MBeanExporter.java:896)- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-29 15:54:49,429 INFO (MBeanExporter.java:669)- Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-29 15:54:49,440 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8888"]
+2018-04-29 15:54:49,449 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-04-29 15:54:49,468 INFO (TomcatWebServer.java:205)- Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-29 15:54:49,473 INFO (StartupInfoLogger.java:59)- Started SystemRun.Application in 3.727 seconds (JVM running for 4.837)
+2018-04-29 15:54:56,949 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-29 15:54:56,949 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-29 15:54:56,969 INFO (FrameworkServlet.java:513)- FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-04-29 15:54:56,997 INFO (UserController.java:31)- "bbb"-30
+2018-04-29 15:54:57,009 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 15:54:57,147 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 15:54:57,197 INFO (UserController.java:34)- userid:1
+2018-04-29 16:17:32,994 INFO (StartupInfoLogger.java:50)- Starting SystemRun.Application on WIN-20130116IDA with PID 7552 (C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core\out\production\classes started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware)
+2018-04-29 16:17:32,995 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 16:17:33,038 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4906c907: startup date [Sun Apr 29 16:17:33 CST 2018]; root of context hierarchy
+2018-04-29 16:17:34,699 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8888 (http)
+2018-04-29 16:17:34,725 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8888"]
+2018-04-29 16:17:34,742 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-04-29 16:17:34,742 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-29 16:17:34,747 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\Desktop\jql\gradle-4.6\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\ProgramData\Oracle\Java\javapath;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;E:\software\Anaconda3\Library\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;.]
+2018-04-29 16:17:34,839 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-04-29 16:17:34,839 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 1801 ms
+2018-04-29 16:17:34,968 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2018-04-29 16:17:34,974 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-29 16:17:34,974 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-29 16:17:34,974 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-29 16:17:34,974 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-29 16:17:35,443 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4906c907: startup date [Sun Apr 29 16:17:33 CST 2018]; root of context hierarchy
+2018-04-29 16:17:35,508 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 16:17:35,511 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/test/{name}]}" onto public java.lang.String controller.SampleController.pathVariable(java.lang.String)
+2018-04-29 16:17:35,511 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/requestHeader]}" onto public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String)
+2018-04-29 16:17:35,512 WARN (AbstractApplicationContext.java:557)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sampleController' method 
+public java.lang.String controller.SampleController.cookieValue(java.lang.String)
+to {[/requestHeader]}: There is already 'sampleController' bean method
+public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String) mapped.
+2018-04-29 16:17:35,514 INFO (DirectJDKLog.java:180)- Stopping service [Tomcat]
+2018-04-29 16:17:35,528 INFO (ConditionEvaluationReportLoggingListener.java:101)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-29 16:17:35,536 ERROR (SpringApplication.java:833)- SystemRun.Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sampleController' method 
+public java.lang.String controller.SampleController.cookieValue(java.lang.String)
+to {[/requestHeader]}: There is already 'sampleController' bean method
+public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at Utility.SystemRun.Application.main(SystemRun.Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sampleController' method 
+public java.lang.String controller.SampleController.cookieValue(java.lang.String)
+to {[/requestHeader]}: There is already 'sampleController' bean method
+public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:251)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+2018-04-29 16:18:50,329 INFO (StartupInfoLogger.java:50)- Starting SystemRun.Application on WIN-20130116IDA with PID 10084 (C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core\out\production\classes started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware)
+2018-04-29 16:18:50,330 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 16:18:50,413 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3b272d7f: startup date [Sun Apr 29 16:18:50 CST 2018]; root of context hierarchy
+2018-04-29 16:18:52,358 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8888 (http)
+2018-04-29 16:18:52,370 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8888"]
+2018-04-29 16:18:52,389 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-04-29 16:18:52,390 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-29 16:18:52,394 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\Desktop\jql\gradle-4.6\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\ProgramData\Oracle\Java\javapath;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;E:\software\Anaconda3\Library\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;.]
+2018-04-29 16:18:52,500 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-04-29 16:18:52,500 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 2087 ms
+2018-04-29 16:18:52,627 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2018-04-29 16:18:52,633 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-29 16:18:52,634 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-29 16:18:52,634 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-29 16:18:52,634 INFO (AbstractFilterRegistrationBean.java:243)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-29 16:18:53,120 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3b272d7f: startup date [Sun Apr 29 16:18:50 CST 2018]; root of context hierarchy
+2018-04-29 16:18:53,174 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 16:18:53,176 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/test/{name}]}" onto public java.lang.String controller.SampleController.pathVariable(java.lang.String)
+2018-04-29 16:18:53,176 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/requestHeader]}" onto public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String)
+2018-04-29 16:18:53,177 WARN (AbstractApplicationContext.java:557)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sampleController' method 
+public java.lang.String controller.SampleController.cookieValue(java.lang.String)
+to {[/requestHeader]}: There is already 'sampleController' bean method
+public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String) mapped.
+2018-04-29 16:18:53,179 INFO (DirectJDKLog.java:180)- Stopping service [Tomcat]
+2018-04-29 16:18:53,194 INFO (ConditionEvaluationReportLoggingListener.java:101)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-29 16:18:53,201 ERROR (SpringApplication.java:833)- SystemRun.Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sampleController' method 
+public java.lang.String controller.SampleController.cookieValue(java.lang.String)
+to {[/requestHeader]}: There is already 'sampleController' bean method
+public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at Utility.SystemRun.Application.main(SystemRun.Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sampleController' method 
+public java.lang.String controller.SampleController.cookieValue(java.lang.String)
+to {[/requestHeader]}: There is already 'sampleController' bean method
+public java.lang.String controller.SampleController.requestHeader(java.lang.String,java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:251)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted

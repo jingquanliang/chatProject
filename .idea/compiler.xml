@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="framework-core_main" target="1.8" />
+      <module name="framework-core_test" target="1.8" />
+      <module name="framework-dao_main" target="1.8" />
+      <module name="framework-dao_test" target="1.8" />
+      <module name="framework-pcweb_main" target="1.8" />
+      <module name="framework-pcweb_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

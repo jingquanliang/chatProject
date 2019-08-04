@@ -1,0 +1,180 @@
+2018-04-29 14:48:16,123 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 7596 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 14:48:16,127 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 14:48:16,180 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@89c10b7: startup date [Sun Apr 29 14:48:16 CST 2018]; root of context hierarchy
+2018-04-29 14:48:18,417 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@89c10b7: startup date [Sun Apr 29 14:48:16 CST 2018]; root of context hierarchy
+2018-04-29 14:48:18,526 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/greeting]}" onto public Utility.Greeting Utility.GreetingController.greeting(java.lang.String)
+2018-04-29 14:48:18,528 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 14:48:18,529 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 14:48:18,529 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser()
+2018-04-29 14:48:18,532 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 14:48:18,533 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 14:48:18,584 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:48:18,584 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:48:18,653 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:48:18,706 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 14:48:19,630 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 4.76 seconds (JVM running for 5.897)
+2018-04-29 14:48:19,770 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 14:48:19,832 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@89c10b7: startup date [Sun Apr 29 14:48:16 CST 2018]; root of context hierarchy
+2018-04-29 14:50:37,164 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 7524 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 14:50:37,165 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 14:50:37,215 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3faf2e7d: startup date [Sun Apr 29 14:50:37 CST 2018]; root of context hierarchy
+2018-04-29 14:50:39,359 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3faf2e7d: startup date [Sun Apr 29 14:50:37 CST 2018]; root of context hierarchy
+2018-04-29 14:50:39,444 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/greeting]}" onto public Utility.Greeting Utility.GreetingController.greeting(java.lang.String)
+2018-04-29 14:50:39,447 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 14:50:39,448 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 14:50:39,448 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser()
+2018-04-29 14:50:39,450 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 14:50:39,451 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 14:50:39,499 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:50:39,499 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:50:39,551 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:50:39,589 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 14:50:40,243 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 4.28 seconds (JVM running for 5.496)
+2018-04-29 14:50:40,392 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 14:50:40,772 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 14:50:40,853 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@3faf2e7d: startup date [Sun Apr 29 14:50:37 CST 2018]; root of context hierarchy
+2018-04-29 14:50:40,856 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 14:50:40,867 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 14:50:59,958 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 6496 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 14:50:59,960 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 14:51:00,015 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6175619b: startup date [Sun Apr 29 14:51:00 CST 2018]; root of context hierarchy
+2018-04-29 14:51:02,268 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6175619b: startup date [Sun Apr 29 14:51:00 CST 2018]; root of context hierarchy
+2018-04-29 14:51:02,353 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/greeting]}" onto public Utility.Greeting Utility.GreetingController.greeting(java.lang.String)
+2018-04-29 14:51:02,354 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 14:51:02,355 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 14:51:02,356 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser()
+2018-04-29 14:51:02,359 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 14:51:02,359 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 14:51:02,402 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:51:02,403 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:51:02,447 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:51:02,485 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 14:51:03,121 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 4.077 seconds (JVM running for 5.235)
+2018-04-29 14:51:03,266 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 14:51:03,576 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 14:51:03,684 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@6175619b: startup date [Sun Apr 29 14:51:00 CST 2018]; root of context hierarchy
+2018-04-29 14:51:03,688 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 14:51:03,717 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 14:53:44,904 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 10036 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 14:53:44,905 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 14:53:45,054 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@756cf158: startup date [Sun Apr 29 14:53:45 CST 2018]; root of context hierarchy
+2018-04-29 14:53:47,427 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@756cf158: startup date [Sun Apr 29 14:53:45 CST 2018]; root of context hierarchy
+2018-04-29 14:53:47,513 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/greeting]}" onto public Utility.Greeting Utility.GreetingController.greeting(java.lang.String)
+2018-04-29 14:53:47,514 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 14:53:47,515 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 14:53:47,516 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser()
+2018-04-29 14:53:47,518 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 14:53:47,519 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 14:53:47,565 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:53:47,565 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:53:47,616 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:53:47,656 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 14:53:48,423 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 4.406 seconds (JVM running for 5.51)
+2018-04-29 14:53:48,593 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 14:53:48,979 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 14:53:49,048 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@756cf158: startup date [Sun Apr 29 14:53:45 CST 2018]; root of context hierarchy
+2018-04-29 14:53:49,052 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 14:53:49,055 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 14:54:52,655 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 6640 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 14:54:52,656 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 14:54:52,704 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1536602f: startup date [Sun Apr 29 14:54:52 CST 2018]; root of context hierarchy
+2018-04-29 14:54:54,725 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1536602f: startup date [Sun Apr 29 14:54:52 CST 2018]; root of context hierarchy
+2018-04-29 14:54:54,812 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/greeting]}" onto public Utility.Greeting Utility.GreetingController.greeting(java.lang.String)
+2018-04-29 14:54:54,814 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 14:54:54,815 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 14:54:54,815 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser()
+2018-04-29 14:54:54,818 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 14:54:54,819 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 14:54:54,860 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:54:54,861 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:54:54,916 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 14:54:54,954 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 14:54:55,569 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 4.214 seconds (JVM running for 5.347)
+2018-04-29 14:54:55,707 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 14:54:56,007 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 14:54:56,141 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@1536602f: startup date [Sun Apr 29 14:54:52 CST 2018]; root of context hierarchy
+2018-04-29 14:54:56,144 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 14:54:56,160 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 15:24:20,484 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 7720 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 15:24:20,487 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:24:20,517 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@49a81c8: startup date [Sun Apr 29 15:24:20 CST 2018]; root of context hierarchy
+2018-04-29 15:24:22,474 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@49a81c8: startup date [Sun Apr 29 15:24:20 CST 2018]; root of context hierarchy
+2018-04-29 15:24:22,556 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:24:22,558 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:24:22,603 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:24:22,603 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:24:22,663 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:24:22,699 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:24:23,004 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 2.969 seconds (JVM running for 4.28)
+2018-04-29 15:24:23,132 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 15:24:23,364 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 15:24:23,459 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@49a81c8: startup date [Sun Apr 29 15:24:20 CST 2018]; root of context hierarchy
+2018-04-29 15:24:23,461 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 15:24:23,465 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 15:24:51,558 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 10164 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 15:24:51,560 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:24:51,587 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ad0453d: startup date [Sun Apr 29 15:24:51 CST 2018]; root of context hierarchy
+2018-04-29 15:24:53,543 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ad0453d: startup date [Sun Apr 29 15:24:51 CST 2018]; root of context hierarchy
+2018-04-29 15:24:53,627 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:24:53,629 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:24:53,677 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:24:53,677 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:24:53,727 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:24:53,779 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:24:54,093 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 2.954 seconds (JVM running for 4.259)
+2018-04-29 15:24:54,225 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 15:24:54,454 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 15:24:54,536 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@5ad0453d: startup date [Sun Apr 29 15:24:51 CST 2018]; root of context hierarchy
+2018-04-29 15:24:54,539 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 15:24:54,542 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 15:27:16,760 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 7892 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 15:27:16,762 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:27:16,790 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3300007a: startup date [Sun Apr 29 15:27:16 CST 2018]; root of context hierarchy
+2018-04-29 15:27:18,763 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3300007a: startup date [Sun Apr 29 15:27:16 CST 2018]; root of context hierarchy
+2018-04-29 15:27:18,851 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:27:18,853 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:27:18,901 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:27:18,901 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:27:18,970 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:27:19,014 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:27:19,341 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 3.052 seconds (JVM running for 4.38)
+2018-04-29 15:27:19,473 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 15:27:19,707 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 15:27:19,804 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@3300007a: startup date [Sun Apr 29 15:27:16 CST 2018]; root of context hierarchy
+2018-04-29 15:27:19,807 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 15:27:19,810 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 15:28:06,242 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 9620 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 15:28:06,243 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:28:06,275 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@377fce6d: startup date [Sun Apr 29 15:28:06 CST 2018]; root of context hierarchy
+2018-04-29 15:28:08,241 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@377fce6d: startup date [Sun Apr 29 15:28:06 CST 2018]; root of context hierarchy
+2018-04-29 15:28:08,326 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:28:08,328 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:28:08,394 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:28:08,395 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:28:08,449 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:28:08,490 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:28:08,809 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 3.029 seconds (JVM running for 4.326)
+2018-04-29 15:28:08,940 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 15:28:09,168 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 15:28:09,244 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@377fce6d: startup date [Sun Apr 29 15:28:06 CST 2018]; root of context hierarchy
+2018-04-29 15:28:09,247 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 15:28:09,252 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
+2018-04-29 15:49:11,455 INFO (StartupInfoLogger.java:50)- Starting mybatisTest on WIN-20130116IDA with PID 9952 (started by Administrator in C:\Users\Administrator\Desktop\intellijCode\intellij-hardware\framework-core)
+2018-04-29 15:49:11,457 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-29 15:49:11,486 INFO (AbstractApplicationContext.java:589)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@254e3e78: startup date [Sun Apr 29 15:49:11 CST 2018]; root of context hierarchy
+2018-04-29 15:49:13,470 INFO (RequestMappingHandlerAdapter.java:567)- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@254e3e78: startup date [Sun Apr 29 15:49:11 CST 2018]; root of context hierarchy
+2018-04-29 15:49:13,550 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/]}" onto java.lang.String controller.SampleController.home()
+2018-04-29 15:49:13,551 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/findAll]}" onto public java.util.List<dao.bean.User> controller.UserController.findAll()
+2018-04-29 15:49:13,551 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/insert]}" onto public dao.bean.User controller.UserController.insertUser(java.lang.String,int)
+2018-04-29 15:49:13,553 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 15:49:13,555 INFO (AbstractHandlerMethodMapping.java:548)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 15:49:13,612 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:49:13,613 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:49:13,665 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 15:49:13,703 WARN (ThymeleafAutoConfiguration.java:104)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-04-29 15:49:14,018 INFO (StartupInfoLogger.java:59)- Started mybatisTest in 3.074 seconds (JVM running for 4.483)
+2018-04-29 15:49:14,141 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-04-29 15:49:14,370 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-04-29 15:49:14,541 INFO (AbstractApplicationContext.java:989)- Closing org.springframework.web.context.support.GenericWebApplicationContext@254e3e78: startup date [Sun Apr 29 15:49:11 CST 2018]; root of context hierarchy
+2018-04-29 15:49:14,544 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2018-04-29 15:49:14,552 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.

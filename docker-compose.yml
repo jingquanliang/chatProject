@@ -1,0 +1,10 @@
+version: '3'
+services:
+ j8888-compose:
+  build: .
+  ports:
+     - "8887:8888"
+  #deploy:
+   # replicas: 6
+  volumes:
+    - ./log:/log

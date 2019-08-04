@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-core/framework-core.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core.iml" group="framework-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-core/framework-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core_main.iml" group="framework-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-core/framework-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core_test.iml" group="framework-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-dao/framework-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-dao/framework-dao.iml" group="framework-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-dao/framework-dao_main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-dao/framework-dao_main.iml" group="framework-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-dao/framework-dao_test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-dao/framework-dao_test.iml" group="framework-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-pcweb/framework-pcweb.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-pcweb/framework-pcweb.iml" group="framework-pcweb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-pcweb/framework-pcweb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-pcweb/framework-pcweb_main.iml" group="framework-pcweb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework-pcweb/framework-pcweb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework-pcweb/framework-pcweb_test.iml" group="framework-pcweb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intellij-hardware.iml" filepath="$PROJECT_DIR$/.idea/modules/intellij-hardware.iml" />
+    </modules>
+  </component>
+</project>

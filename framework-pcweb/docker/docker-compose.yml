@@ -1,0 +1,10 @@
+version: '3'
+services:
+ pc-compose:
+  build: .
+  ports:
+     - "80:80"
+  #deploy:
+   # replicas: 6
+  volumes:
+    - ./log:/log

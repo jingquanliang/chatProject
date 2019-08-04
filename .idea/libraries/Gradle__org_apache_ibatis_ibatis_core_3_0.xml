@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.ibatis:ibatis-core:3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ibatis/ibatis-core/3.0/4f818828421237e64f3b399af91f14fcaecea3f2/ibatis-core-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ibatis/ibatis-core/3.0/7f9e3230e2efe7dae8e8c58f075ec7f1a315e8e0/ibatis-core-3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
