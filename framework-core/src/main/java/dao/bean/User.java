@@ -1,6 +1,9 @@
 package dao.bean;
 
-public class User {
+import java.io.Serializable;
+import java.security.Principal;
+
+public class User implements Principal,Serializable {
 
     private Integer id;
     private String name;

@@ -29,9 +29,16 @@ dependencies {
         compile("org.webjars:bootstrap:3.3.7")
         compile("org.webjars:jquery:3.1.0")
 
+        //openfire集成需要的本地jar包
+        compile fileTree(dir:'libs',include:['*.jar'])
+
         // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
         // 定时器相关任务
         compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.1.5.RELEASE'
+
+        // https://mvnrepository.com/artifact/org.springframework.security/spring-security-messaging
+        compile group: 'org.springframework.security', name: 'spring-security-messaging', version: '4.0.1.RELEASE'
+
 
 //        compile group: 'org.springframework.boot', name: 'spring-boot-starter-security'
 
@@ -50,7 +57,7 @@ dependencies {
 
         //spring session，如果用spring session，就打开下面两个，注意是两个，不是三个
 //        compile group: 'org.springframework.session', name: 'spring-session-data-redis', version: '2.0.2.RELEASE'
-//        compile "org.springframework.boot:spring-boot-starter-data-redis"
+        compile "org.springframework.boot:spring-boot-starter-data-redis"
 
 //        compile 'org.springframework.session:spring-session-core:2.0.2.RELEASE' //这个暂时没有作用
 

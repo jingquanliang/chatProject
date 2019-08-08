@@ -1,5 +1,5 @@
 var stompClient = null;
-
+var username = "demo";
 function setConnected(connected) {
     $("#connect").prop("disabled", connected);
     $("#disconnect").prop("disabled", !connected);
@@ -14,9 +14,11 @@ function setConnected(connected) {
 
 function connect() {
     var url = "http://127.0.0.1:8888";
+    var name = "demo";
+    var password = "password++++++++++++";
     var socket = new SockJS(url+'/gs-guide-websocket');
     stompClient = Stomp.over(socket);
-    stompClient.connect({}, function (frame) {
+    stompClient.connect({'name': name,'password': password}, function (frame) {
         setConnected(true);
         console.log('Connected: ' + frame);
         //订阅广播信息
@@ -29,7 +31,7 @@ function connect() {
             showResponse(JSON.parse(response.body));
         });
 
-        var userId=1;
+        var userId="demo";
         //订阅一对1消息
         //通过stompClient.subscribe订阅/topic/getResponse 目标(destination)发送的消息
         stompClient.subscribe('/user/' + userId + '/queue/getResponse',function(response){
@@ -38,12 +40,14 @@ function connect() {
         });
         // 原文：https://blog.csdn.net/liyongzhi1992/article/details/81221103
 
+        stompClient.send("/foo/connectOpenF", {}, JSON.stringify({'content': username}));
+
     });
 }
 
 function showUserResponse(message) {
     var response = $("#userresponse");
-    response.append("<p>只有userID为"+message.id+"的人才能收到</p>");
+    response.append("<p>只有userID为"+message.id+"的人才能收到，信息为："+ message.content +"</p>");
 }
 
 function showResponse(message) {
@@ -60,7 +64,7 @@ function disconnect() {
 }
 
 function sendName() {
-    stompClient.send("/user/hello", {}, JSON.stringify({'name': $("#name").val()}));
+    stompClient.send("/foo/demo", {}, JSON.stringify({'content': $("#name").val()}));
 }
 
 function showGreeting(message) {

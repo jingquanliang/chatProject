@@ -29,7 +29,7 @@ function connect() {
             showResponse(JSON.parse(response.body));
         });
 
-        var userId=2;
+        var userId="admina";
         //订阅一对1消息
         //通过stompClient.subscribe订阅/topic/getResponse 目标(destination)发送的消息
         stompClient.subscribe('/user/' + userId + '/queue/getResponse',function(response){
@@ -43,7 +43,7 @@ function connect() {
 
 function showUserResponse(message) {
     var response = $("#userresponse");
-    response.append("<p>只有userID为"+message.id+"的人才能收到</p>");
+    response.append("<p>只有userID为"+message.id+"的人才能收到，信息为："+ message.content +"</p>");
 }
 
 function showResponse(message) {
@@ -60,7 +60,7 @@ function disconnect() {
 }
 
 function sendName() {
-    stompClient.send("/user/hello", {}, JSON.stringify({'name': $("#name").val()}));
+    stompClient.send("/foo/admina", {}, JSON.stringify({'content': $("#name").val()}));
 }
 
 function showGreeting(message) {
