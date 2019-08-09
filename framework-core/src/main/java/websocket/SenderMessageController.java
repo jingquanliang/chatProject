@@ -66,4 +66,18 @@ public class SenderMessageController {
         }
 
     }
+
+
+    // 服务器下线消息
+    public void adminOffLineMessage(){
+        try {
+            UserMessage me=new UserMessage("0");
+            this.template.convertAndSend("/topic/adminStatus",me); //给所有用户发送下线指令
+        }catch (Exception e){
+
+            e.printStackTrace();
+        }
+
+
+    }
 }

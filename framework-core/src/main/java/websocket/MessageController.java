@@ -58,9 +58,6 @@ public class MessageController {
     public void receiveUserMessage(Principal principal, UserMessage message, @DestinationVariable String name, @DestinationVariable String passw) throws Exception {
 //    public void receiveUserMessage(UserMessage message, @DestinationVariable String name) throws Exception {
 //       logger.info("已经进入了websocket的函数，接收到用户id："+id);
-
-
-
 //        logger.info("receive message:"+message.getContent());
 //        logger.info("receive name from clinet:"+name);
 //        logger.info("receive name from principal:"+principal.getName());
@@ -68,6 +65,18 @@ public class MessageController {
         if(name.equals("connectOpenF")){
             //这里的name代表的是指令，让后台打开openfire
             String pass= Decryption.parseTokenToPassword(message.getPassword());
+            if("admin".equals(message.getContent())){
+                //说明是后台上线了
+                new Constants().setIsAdminOnline(1); //把标志位设为1
+                UserMessage me=new UserMessage("1");
+                this.template.convertAndSend("/topic/adminStatus",me); //给所有用户发送上线指令
+            }
+            else{//说明是普通用户上线，给用户发送一个上线的指令
+                int flag=Constants.isAdminOnline;
+                UserMessage me=new UserMessage(Integer.toString(flag));
+//                logger.info("common user,the admin flag is:"+flag);
+                this.template.convertAndSendToUser(passw,"/querey/adminStatus",me); //只是给这个用户发送用户是否在线的消息
+            }
             new GetXMPPConnForUser().callForConn(message.getContent(),pass);
         }
         else{ // 让后台发送信息

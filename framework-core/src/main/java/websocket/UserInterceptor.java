@@ -84,6 +84,13 @@ public class UserInterceptor extends GetXMPPConnForUser implements ChannelInterc
                     logger.info("Message: message={}", message);
                     boolean flag= shb.contains("simpHeartbeat");
                     if(!flag){
+                        if("admin".equals(user.getName())){
+                            //发送客服下线消息
+                            new Constants().setIsAdminOnline(0); //下线之后变为0
+                            SenderMessageController sendController=new SenderMessageController();
+                            sendController.adminOffLineMessage();
+                        }
+
                         Integer count= MessageHanlder.UserConnCount.get(user.getName());
                         count=count-1;
                         logger.info("count is :"+count);
