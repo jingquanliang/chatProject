@@ -90,7 +90,7 @@ public class MessageController {
 
             JSONObject contentJson=JSONObject.fromObject(message.getContent());
             String srcId=(String)contentJson.get("desId");
-            if(srcId.contains("noLogin"))
+            if(srcId.contains("noLogin")) //这里做了一个特殊的处理
                 srcId="demo";
            xm.sendMessage(srcId,message.getContent());
        }
@@ -147,8 +147,8 @@ public class MessageController {
 
 
     //广播推送消息，一对多，测试用
-    @Scheduled(fixedRate = 50000)
-    @Async
+//    @Scheduled(fixedRate = 50000)
+//    @Async
     public void sendTopicMessage() {
         logger.info("one to many send message！+++++++");
         Greeting ge=new Greeting("周期性消息");

@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff03f2fd-342c-46be-b350-1d79a28bef58" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/config/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/UserMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/GetXMPPConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/ReceiveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/XMPPTCPOffLIne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageHanlder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/SenderMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/SessionAuthHandshakeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/WebsocketSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
@@ -25,21 +9,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/framework-core/framework-core_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/log/demo.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/Utility/Decryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/Utility/Decryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/config/SessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/config/SessionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/websocket/GreetingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/websocket/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-core/src/main/resources/logback-boot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/resources/logback-boot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/smack/GetXMPPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/GetXMPPConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -121,11 +95,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetXMPPConnection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="e#8975#8976#0" expanded="true" />
+                <element signature="e#9002#9003#0" expanded="true" />
+                <element signature="e#9097#9098#0" expanded="true" />
+                <element signature="e#9127#9128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SenderMessageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/SenderMessageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetXMPPConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/smack/GetXMPPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+            <state relative-caret-position="8478">
+              <caret line="352" column="33" selection-start-line="352" selection-start-column="33" selection-end-line="352" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>keystore</find>
       <find>spring-boot-starter-logging</find>
       <find>log4j</find>
       <find>gs-guide-websocket</find>
@@ -176,6 +197,7 @@
       <find>已经进入了websocket的函数</find>
       <find>已经进入</find>
       <find>useSmDefault</find>
+      <find>passw</find>
     </findStrings>
     <replaceStrings>
       <replace>logger.info</replace>
@@ -1510,11 +1532,9 @@
         <option value="$PROJECT_DIR$/framework-pcweb/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/Message.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/GreetingController.java" />
-        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/Constants.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/config/redisUtils.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/config/RedisUtils.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/User.java" />
         <option value="$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app2.js" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/smack/XMPPTCPOffLIne.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/SpringContextUtils.java" />
@@ -1526,18 +1546,20 @@
         <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageHanlder.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/SessionAuthHandshakeInterceptor.java" />
         <option value="$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app.js" />
-        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/UserMessage.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/config/SessionConfig.java" />
         <option value="$PROJECT_DIR$/framework-core/build.gradle" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/Utility/Decryption.java" />
-        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/SenderMessageController.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/GetXMPPConnForUser.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/smack/ReceiveMessage.java" />
-        <option value="$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java" />
+        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/Constants.java" />
+        <option value="$PROJECT_DIR$/framework-core/src/main/java/dao/bean/User.java" />
+        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/SenderMessageController.java" />
         <option value="$PROJECT_DIR$/framework-core/src/main/java/smack/GetXMPPConnection.java" />
+        <option value="$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java" />
+        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java" />
+        <option value="$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java" />
       </list>
     </option>
   </component>
@@ -1568,7 +1590,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1576,12 +1600,45 @@
               <item name="intellij-hardware" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="intellij-hardware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="framework-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-hardware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="framework-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-hardware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="framework-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-hardware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="framework-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-hardware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="framework-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1589,7 +1646,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OWN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1627,7 +1684,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.chatProject:framework-core [clean]">
+  <component name="RunManager" selected="Gradle.chatProject:framework-core [build]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1797,14 +1854,19 @@
       <workItem from="1565085535094" duration="8379000" />
       <workItem from="1565148499220" duration="20901000" />
       <workItem from="1565228187052" duration="4291000" />
+      <workItem from="1565346011564" duration="7124000" />
+      <workItem from="1565409062456" duration="776000" />
+      <workItem from="1565411080129" duration="671000" />
+      <workItem from="1565432139550" duration="1523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131327000" />
+    <option name="totallyTimeSpent" value="141421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
@@ -1822,22 +1884,22 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.46369636" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32838285" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21633889" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.2065053" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.2065053" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32838285" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.65346533" />
     </layout>
@@ -1845,10 +1907,9 @@
       <window_info anchor="bottom" id="Build" order="8" weight="0.32838285" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.46369636" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32838285" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.46369636" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -1856,17 +1917,17 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32838285" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32838285" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.65346533" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32980332" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.12556732" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.2065053" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21633889" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -1874,8 +1935,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.65346533" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1898,13 +1960,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.21/70f76ccdee679e557a0787debe05d7ab783d8b55/tomcat-embed-core-9.0.21-sources.jar!/javax/servlet/http/HttpSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.1.9.RELEASE/cccf9a4f802fcc07967d3f3d20e3ea17b0047ffd/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1916,13 +1971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="427" column="23" selection-start-line="427" selection-start-column="23" selection-end-line="427" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/dao/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -2081,13 +2129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -2095,24 +2136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageHanlder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-pcweb/src/main/resources/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -2175,37 +2202,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="69" column="107" selection-start-line="69" selection-start-column="107" selection-end-line="69" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/smack/ReceiveMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/SenderMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/dao/bean/UserMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -2234,20 +2234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-573">
           <caret line="127" column="39" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="39" />
-          <folding>
-            <element signature="e#27024#27025#0" expanded="true" />
-            <element signature="e#27067#27068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2258,10 +2244,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageHanlder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/5.1.8.RELEASE/f05727a34235d2b214bc32a431a41f48bb6e73c8/spring-messaging-5.1.8.RELEASE-sources.jar!/org/springframework/messaging/core/MessageSendingOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/dao/bean/UserMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/dao/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/smack/GetXMPPConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="8478">
+          <caret line="352" column="33" selection-start-line="352" selection-start-column="33" selection-end-line="352" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/UserInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#8975#8976#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9097#9098#0" expanded="true" />
+            <element signature="e#9127#9128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/SenderMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/smack/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-core/src/main/java/websocket/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

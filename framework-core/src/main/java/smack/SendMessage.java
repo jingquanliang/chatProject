@@ -67,8 +67,8 @@ public class SendMessage {
 //                });
 //                newChat.sendMessage(messa); // 不知道为什么，这个不起作用
                 conn.sendStanza(messa); // 这是官方要求回执的方法，目前测试的是不起作用
-                logger.info("++++++++++++++++++++++++++openfire 发送了消息+++++++++++++++++++++++++++++++++++");
-                System.out.println("to:"+messa.getTo()+"正确发送了消息:" + messa.getBody());
+                logger.info("++++++++++++++++++++++++++openfire send message+++++++++++++++++++++++++++++++++++");
+                System.out.println("to:"+messa.getTo()+"|body:" + messa.getBody());
                 break; //发送完毕之后，就不在循环发送了
             } catch (SmackException.NotConnectedException e) { //没有连接，则连接上再次发送
                 System.out.println("发送之前重新连接");
@@ -96,7 +96,7 @@ public class SendMessage {
             public void onReceiptReceived(String fromJid, String toJid, String receiptId, Stanza receipt) {
                 // If the receiving entity does not support delivery receipts,
                 // then the receipt received listener may not get invoked.
-                logger.info("接收到回执了");
+                logger.info("receive recipit");
                 logger.info((new Date()).toString() + " - drm:" + receipt.toXML());
             }
         });

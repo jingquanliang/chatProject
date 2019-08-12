@@ -96,9 +96,9 @@ public class GetXMPPConnection {
             //  TLSUtils.acceptAllCertificates(builder);
 
 //            Log.d(TAG, "Setting XMPPTCPConnection Static StreamManagement Default Properties to true ");
-            //流管理机制，不过我自己也添加了回执，不知道这个流管理是做什么的，反正就打开吧
-            XMPPTCPConnection.setUseStreamManagementDefault(true);
-            XMPPTCPConnection.setUseStreamManagementResumptiodDefault(true);
+            //流管理机制，不过我自己也添加了回执，就不打开了吧，如果下次编写程序，可以尝试把自己写的回执去掉，这句打开
+//            XMPPTCPConnection.setUseStreamManagementDefault(true);
+//            XMPPTCPConnection.setUseStreamManagementResumptiodDefault(true);
 
 //            Log.d(TAG, "Setting SASLAuthentication Blacklist");
 

@@ -26,6 +26,9 @@ import java.util.Map;
 
 import ru.own.www.smack.ReceiveMessage;
 
+/**
+ * web socket 的连接器
+ */
 public class UserInterceptor extends GetXMPPConnForUser implements ChannelInterceptor {
 
 
@@ -45,7 +48,7 @@ public class UserInterceptor extends GetXMPPConnForUser implements ChannelInterc
 //                    sessionAttributes.put(CsrfToken.class.getName(), new DefaultCsrfToken("Auth-Token", "Auth-Token", name));
 //                        UserAuthenticationToken authToken = tokenService.retrieveUserAuthToken(jwtToken);
 //                        SecurityContextHolder.getContext().setAuthentication(authToken);
-                    logger.info("22222webSocket token is :" + name);
+                    logger.info("webSocket token is :" + name);
                     Map sessionAttributes  = accessor.getSessionAttributes();
                     User user = new User();
                     user.setName(name);
